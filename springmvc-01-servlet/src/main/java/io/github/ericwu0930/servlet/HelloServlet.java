@@ -28,6 +28,6 @@ public class HelloServlet extends HttpServlet {
         }
         //2. 调用业务层
         //3. 试图转发或者重定向
-        req.getRequestDispatcher("/WEB-INFO/jsp/test.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/jsp/test.jsp").forward(req,resp);
     }
 }
