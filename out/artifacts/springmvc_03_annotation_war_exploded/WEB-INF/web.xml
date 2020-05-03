@@ -10,12 +10,8 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:springmvc-servlet.xml</param-value>
         </init-param>
-        <!--启动级别-->
-        <load-on-startup>1</load-on-startup>
     </servlet>
 
-<!--  在springmvc中，/只匹配所有的请求，不会匹配jsp
-                    /* 不仅匹配请求，还会匹配jsp-->
     <servlet-mapping>
         <servlet-name>springmvc</servlet-name>
         <url-pattern>/</url-pattern>
